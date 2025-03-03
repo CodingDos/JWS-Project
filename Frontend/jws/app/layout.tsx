@@ -11,6 +11,8 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
+  title: 'A-La-Carte',
+  description: 'Web platform connecting local freelance chefs with customers',
 };
 
 export default function RootLayout({

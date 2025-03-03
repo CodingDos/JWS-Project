@@ -23,6 +23,10 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang='en' className={`${inter.variable} ${workSans.variable}`}>
+        <body>
+          <main>{children}</main>
+        </body>
+      </html>
     </ClerkProvider>
   );
 }
